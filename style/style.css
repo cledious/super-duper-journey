@@ -7,35 +7,116 @@
 }
 
 body {
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
+  height: auto;
 }
 body header {
-  background-color: aquamarine;
+  background-color: rgb(229, 240, 236);
   width: 100%;
   height: 3.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   letter-spacing: 10px;
 }
+body header #ps-home p {
+  text-transform: uppercase;
+}
 body #anuncios-feed {
-  background: url(/files/pruebas/watermelon.png);
-  background-color: #ac0202;
-  width: 100%;
-  height: 35rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  background-color: #ac0202;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+body #anuncios-feed img {
+  margin-top: auto;
+  width: 100%;
+  height: 100vw;
 }
 body #anuncios-feed .anuncios-feed-box {
+  position: absolute;
   opacity: 0.5;
   background-color: bisque;
   width: 34rem;
   height: 34rem;
-  margin: auto;
 }
 body #anuncios-feed .anuncios-feed-box p {
   align-self: center;
   justify-self: center;
+}
+body .type {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .type h2 {
+  background-color: #ac0202;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .type nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30em;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+body .type nav a {
+  margin: auto;
+  width: 12em;
+  height: auto;
+  background-color: #ac0202;
+}
+body .type nav a h4 {
+  font-size: 30px;
+}
+body .type nav a img {
+  width: 100%;
+}
+body .other {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .other h2 {
+  background-color: #ac0202;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .other nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50em;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+body .other nav a {
+  margin: auto;
+  width: 12em;
+  height: 24em;
+  background-color: #ac0202;
+}
+body .other nav a h4 {
+  font-size: 30px;
+}
+body .other nav a img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
